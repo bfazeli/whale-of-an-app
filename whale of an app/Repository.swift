@@ -22,6 +22,8 @@ class Repository {
         location, response, error in
         guard let location = location, let imageData = try? Data(contentsOf: location) else { return }
         
+        cache[imageUrl] = imageData
+        
         DispatchQueue.main.async {
           completion(imageData)
         }
