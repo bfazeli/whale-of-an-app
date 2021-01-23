@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		388B44F0787FDB1691E743E8 /* Pods_whale_of_an_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27E3AE364D3E0C3C0E458DF /* Pods_whale_of_an_appTests.framework */; };
+		6CDEED3B19580BDC7D40DFA5 /* Pods_whale_of_an_app_whale_of_an_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416F892973C111CAA9B88B4E /* Pods_whale_of_an_app_whale_of_an_appUITests.framework */; };
 		73AFEF9B25BA914E00803297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEF9A25BA914E00803297 /* AppDelegate.swift */; };
 		73AFEF9D25BA914E00803297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEF9C25BA914E00803297 /* SceneDelegate.swift */; };
-		73AFEF9F25BA914E00803297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEF9E25BA914E00803297 /* ViewController.swift */; };
+		73AFEF9F25BA914E00803297 /* WhaleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEF9E25BA914E00803297 /* WhaleListViewController.swift */; };
 		73AFEFA225BA914E00803297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AFEFA025BA914E00803297 /* Main.storyboard */; };
 		73AFEFA525BA914E00803297 /* whale_of_an_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFA325BA914E00803297 /* whale_of_an_app.xcdatamodeld */; };
 		73AFEFA725BA915000803297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AFEFA625BA915000803297 /* Assets.xcassets */; };
 		73AFEFAA25BA915000803297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AFEFA825BA915000803297 /* LaunchScreen.storyboard */; };
 		73AFEFB525BA915000803297 /* whale_of_an_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFB425BA915000803297 /* whale_of_an_appTests.swift */; };
 		73AFEFC025BA915000803297 /* whale_of_an_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFBF25BA915000803297 /* whale_of_an_appUITests.swift */; };
+		73AFEFE225BA9E7000803297 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFE125BA9E7000803297 /* ViewModel.swift */; };
+		73AFEFEC25BAA08000803297 /* WhaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFEB25BAA08000803297 /* WhaleCollectionViewCell.swift */; };
+		73AFEFF525BAA51400803297 /* Whale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFF425BAA51400803297 /* Whale.swift */; };
+		73AFEFFB25BAA7A800803297 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFEFFA25BAA7A800803297 /* Constants.swift */; };
+		73AFF02325BC03D300803297 /* WhaleContentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFF02225BC03D300803297 /* WhaleContentConfiguration.swift */; };
+		73AFF02825BC04CE00803297 /* WhaleVerticalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFF02725BC04CE00803297 /* WhaleVerticalContentView.swift */; };
+		73AFF03425BC158200803297 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFF03325BC158200803297 /* Repository.swift */; };
+		73AFF03F25BCA1F400803297 /* UIColor+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFF03E25BCA1F400803297 /* UIColor+random.swift */; };
+		73AFF07025BCC7C400803297 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFF06F25BCC7C400803297 /* Bindable.swift */; };
+		73AFF07B25BCDDFD00803297 /* WhaleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AFF07A25BCDDFD00803297 /* WhaleDetailViewController.swift */; };
+		F09F6D06795317046A468789 /* Pods_whale_of_an_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7296B92052D2854E3325A24B /* Pods_whale_of_an_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03FC29CE2DE08083C28C3C9F /* Pods-whale of an app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale of an app.release.xcconfig"; path = "Target Support Files/Pods-whale of an app/Pods-whale of an app.release.xcconfig"; sourceTree = "<group>"; };
+		0B9A3B424E3C3C158CF03BAA /* Pods-whale of an appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale of an appTests.debug.xcconfig"; path = "Target Support Files/Pods-whale of an appTests/Pods-whale of an appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		416F892973C111CAA9B88B4E /* Pods_whale_of_an_app_whale_of_an_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_of_an_app_whale_of_an_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7296B92052D2854E3325A24B /* Pods_whale_of_an_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_of_an_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFEF9725BA914E00803297 /* whale of an app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale of an app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFEF9A25BA914E00803297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73AFEF9C25BA914E00803297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73AFEF9E25BA914E00803297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73AFEF9E25BA914E00803297 /* WhaleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleListViewController.swift; sourceTree = "<group>"; };
 		73AFEFA125BA914E00803297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73AFEFA425BA914E00803297 /* whale_of_an_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = whale_of_an_app.xcdatamodel; sourceTree = "<group>"; };
 		73AFEFA625BA915000803297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +68,21 @@
 		73AFEFBB25BA915000803297 /* whale of an appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whale of an appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AFEFBF25BA915000803297 /* whale_of_an_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whale_of_an_appUITests.swift; sourceTree = "<group>"; };
 		73AFEFC125BA915000803297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AFEFE125BA9E7000803297 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		73AFEFEB25BAA08000803297 /* WhaleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		73AFEFF425BAA51400803297 /* Whale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whale.swift; sourceTree = "<group>"; };
+		73AFEFFA25BAA7A800803297 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		73AFF02225BC03D300803297 /* WhaleContentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleContentConfiguration.swift; sourceTree = "<group>"; };
+		73AFF02725BC04CE00803297 /* WhaleVerticalContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleVerticalContentView.swift; sourceTree = "<group>"; };
+		73AFF03325BC158200803297 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		73AFF03E25BCA1F400803297 /* UIColor+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+random.swift"; sourceTree = "<group>"; };
+		73AFF06F25BCC7C400803297 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		73AFF07A25BCDDFD00803297 /* WhaleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhaleDetailViewController.swift; sourceTree = "<group>"; };
+		A91D0CF882BDBEC99B8C9E65 /* Pods-whale of an app-whale of an appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale of an app-whale of an appUITests.release.xcconfig"; path = "Target Support Files/Pods-whale of an app-whale of an appUITests/Pods-whale of an app-whale of an appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B27E3AE364D3E0C3C0E458DF /* Pods_whale_of_an_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_of_an_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6FF7B29E19C271EC1E731A /* Pods-whale of an app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale of an app.debug.xcconfig"; path = "Target Support Files/Pods-whale of an app/Pods-whale of an app.debug.xcconfig"; sourceTree = "<group>"; };
+		EDBFA5342651F7F66E2837DA /* Pods-whale of an app-whale of an appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale of an app-whale of an appUITests.debug.xcconfig"; path = "Target Support Files/Pods-whale of an app-whale of an appUITests/Pods-whale of an app-whale of an appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8FFA8EA2E21599247C7900 /* Pods-whale of an appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale of an appTests.release.xcconfig"; path = "Target Support Files/Pods-whale of an appTests/Pods-whale of an appTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09F6D06795317046A468789 /* Pods_whale_of_an_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388B44F0787FDB1691E743E8 /* Pods_whale_of_an_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDEED3B19580BDC7D40DFA5 /* Pods_whale_of_an_app_whale_of_an_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +120,8 @@
 				73AFEFB325BA915000803297 /* whale of an appTests */,
 				73AFEFBE25BA915000803297 /* whale of an appUITests */,
 				73AFEF9825BA914E00803297 /* Products */,
+				BDFF91A3EBFAD7494CCFE32F /* Pods */,
+				F318B14C76C2D9536D7C3032 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +138,16 @@
 		73AFEF9925BA914E00803297 /* whale of an app */ = {
 			isa = PBXGroup;
 			children = (
+				73AFF06E25BCC7B700803297 /* Helpers */,
+				73AFF03D25BCA1D200803297 /* Extensions */,
+				73AFEFF925BAA78C00803297 /* Utils */,
+				73AFEFF325BAA4EF00803297 /* Models */,
+				73AFEFEA25BA9FF500803297 /* Views */,
+				73AFEFE925BA9F0200803297 /* Network */,
+				73AFEFE025BA9E2300803297 /* ViewModels */,
+				73AFEFDB25BA9DB200803297 /* Controllers */,
 				73AFEF9A25BA914E00803297 /* AppDelegate.swift */,
 				73AFEF9C25BA914E00803297 /* SceneDelegate.swift */,
-				73AFEF9E25BA914E00803297 /* ViewController.swift */,
 				73AFEFA025BA914E00803297 /* Main.storyboard */,
 				73AFEFA625BA915000803297 /* Assets.xcassets */,
 				73AFEFA825BA915000803297 /* LaunchScreen.storyboard */,
@@ -131,6 +175,104 @@
 			path = "whale of an appUITests";
 			sourceTree = "<group>";
 		};
+		73AFEFDB25BA9DB200803297 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				73AFEF9E25BA914E00803297 /* WhaleListViewController.swift */,
+				73AFF07A25BCDDFD00803297 /* WhaleDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		73AFEFE025BA9E2300803297 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				73AFEFE125BA9E7000803297 /* ViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		73AFEFE925BA9F0200803297 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				73AFF03325BC158200803297 /* Repository.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		73AFEFEA25BA9FF500803297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73AFF03225BC145900803297 /* CustomCell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		73AFEFF325BAA4EF00803297 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73AFEFF425BAA51400803297 /* Whale.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		73AFEFF925BAA78C00803297 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				73AFEFFA25BAA7A800803297 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		73AFF03225BC145900803297 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				73AFEFEB25BAA08000803297 /* WhaleCollectionViewCell.swift */,
+				73AFF02225BC03D300803297 /* WhaleContentConfiguration.swift */,
+				73AFF02725BC04CE00803297 /* WhaleVerticalContentView.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		73AFF03D25BCA1D200803297 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73AFF03E25BCA1F400803297 /* UIColor+random.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		73AFF06E25BCC7B700803297 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				73AFF06F25BCC7C400803297 /* Bindable.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BDFF91A3EBFAD7494CCFE32F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FF7B29E19C271EC1E731A /* Pods-whale of an app.debug.xcconfig */,
+				03FC29CE2DE08083C28C3C9F /* Pods-whale of an app.release.xcconfig */,
+				EDBFA5342651F7F66E2837DA /* Pods-whale of an app-whale of an appUITests.debug.xcconfig */,
+				A91D0CF882BDBEC99B8C9E65 /* Pods-whale of an app-whale of an appUITests.release.xcconfig */,
+				0B9A3B424E3C3C158CF03BAA /* Pods-whale of an appTests.debug.xcconfig */,
+				FE8FFA8EA2E21599247C7900 /* Pods-whale of an appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F318B14C76C2D9536D7C3032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7296B92052D2854E3325A24B /* Pods_whale_of_an_app.framework */,
+				416F892973C111CAA9B88B4E /* Pods_whale_of_an_app_whale_of_an_appUITests.framework */,
+				B27E3AE364D3E0C3C0E458DF /* Pods_whale_of_an_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73AFEFC425BA915000803297 /* Build configuration list for PBXNativeTarget "whale of an app" */;
 			buildPhases = (
+				C17C74208E9026A55FE3477C /* [CP] Check Pods Manifest.lock */,
 				73AFEF9325BA914E00803297 /* Sources */,
 				73AFEF9425BA914E00803297 /* Frameworks */,
 				73AFEF9525BA914E00803297 /* Resources */,
+				83CC1B6F5ADDB0C1B74B50C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73AFEFC725BA915000803297 /* Build configuration list for PBXNativeTarget "whale of an appTests" */;
 			buildPhases = (
+				F791303DE004D3673A7D6245 /* [CP] Check Pods Manifest.lock */,
 				73AFEFAC25BA915000803297 /* Sources */,
 				73AFEFAD25BA915000803297 /* Frameworks */,
 				73AFEFAE25BA915000803297 /* Resources */,
@@ -173,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73AFEFCA25BA915000803297 /* Build configuration list for PBXNativeTarget "whale of an appUITests" */;
 			buildPhases = (
+				67D9F5C68492305CA0EF7011 /* [CP] Check Pods Manifest.lock */,
 				73AFEFB725BA915000803297 /* Sources */,
 				73AFEFB825BA915000803297 /* Frameworks */,
 				73AFEFB925BA915000803297 /* Resources */,
+				174CAF1637ED956CEB3BFEE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +403,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		174CAF1637ED956CEB3BFEE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whale of an app-whale of an appUITests/Pods-whale of an app-whale of an appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whale of an app-whale of an appUITests/Pods-whale of an app-whale of an appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whale of an app-whale of an appUITests/Pods-whale of an app-whale of an appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D9F5C68492305CA0EF7011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whale of an app-whale of an appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83CC1B6F5ADDB0C1B74B50C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whale of an app/Pods-whale of an app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whale of an app/Pods-whale of an app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whale of an app/Pods-whale of an app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17C74208E9026A55FE3477C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whale of an app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F791303DE004D3673A7D6245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whale of an appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73AFEF9325BA914E00803297 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AFEF9F25BA914E00803297 /* ViewController.swift in Sources */,
+				73AFEFE225BA9E7000803297 /* ViewModel.swift in Sources */,
+				73AFEFF525BAA51400803297 /* Whale.swift in Sources */,
+				73AFF03F25BCA1F400803297 /* UIColor+random.swift in Sources */,
+				73AFF02325BC03D300803297 /* WhaleContentConfiguration.swift in Sources */,
+				73AFF07025BCC7C400803297 /* Bindable.swift in Sources */,
+				73AFEF9F25BA914E00803297 /* WhaleListViewController.swift in Sources */,
+				73AFF02825BC04CE00803297 /* WhaleVerticalContentView.swift in Sources */,
+				73AFF03425BC158200803297 /* Repository.swift in Sources */,
 				73AFEF9B25BA914E00803297 /* AppDelegate.swift in Sources */,
 				73AFEF9D25BA914E00803297 /* SceneDelegate.swift in Sources */,
+				73AFEFEC25BAA08000803297 /* WhaleCollectionViewCell.swift in Sources */,
 				73AFEFA525BA914E00803297 /* whale_of_an_app.xcdatamodeld in Sources */,
+				73AFF07B25BCDDFD00803297 /* WhaleDetailViewController.swift in Sources */,
+				73AFEFFB25BAA7A800803297 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +697,7 @@
 		};
 		73AFEFC525BA915000803297 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6FF7B29E19C271EC1E731A /* Pods-whale of an app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +717,7 @@
 		};
 		73AFEFC625BA915000803297 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FC29CE2DE08083C28C3C9F /* Pods-whale of an app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +737,7 @@
 		};
 		73AFEFC825BA915000803297 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9A3B424E3C3C158CF03BAA /* Pods-whale of an appTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +760,7 @@
 		};
 		73AFEFC925BA915000803297 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8FFA8EA2E21599247C7900 /* Pods-whale of an appTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +783,7 @@
 		};
 		73AFEFCB25BA915000803297 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBFA5342651F7F66E2837DA /* Pods-whale of an app-whale of an appUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +804,7 @@
 		};
 		73AFEFCC25BA915000803297 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91D0CF882BDBEC99B8C9E65 /* Pods-whale of an app-whale of an appUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
