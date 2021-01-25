@@ -88,12 +88,13 @@ private extension WhaleListViewController {
 extension WhaleListViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     guard let whaleName = self.dataSource.itemIdentifier(for: indexPath)?.name ,
-          let whaleImageData = self.dataSource.itemIdentifier(for: indexPath)?.imageData else {
+          let whaleImageData = self.dataSource.itemIdentifier(for: indexPath)?.imageData,
+          let bgColor = self.collectionView.cellForItem(at: indexPath)?.backgroundConfiguration?.backgroundColor else {
       collectionView.deselectItem(at: indexPath, animated: true)
       return
     }
     
-    let detailViewController = WhaleDetailViewController(name: whaleName, imageData: whaleImageData)
+    let detailViewController = WhaleDetailViewController(name: whaleName, bgColor: bgColor, imageData: whaleImageData)
     self.navigationController?.pushViewController(detailViewController, animated: true)
   }
 }

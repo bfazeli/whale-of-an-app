@@ -39,8 +39,8 @@ class WhaleVerticalContentView: UIView, UIContentView {
   
   init(configuration: WhaleContentConfiguration) {
     super.init(frame: .zero)
-    setUpViews()
     apply(configuration)
+    setUpViews()
   }
   
   override init(frame: CGRect) {
@@ -58,16 +58,17 @@ private extension WhaleVerticalContentView {
     let stackView = UIStackView()
     stackView.axis = .vertical
     stackView.alignment = .fill
-    stackView.distribution = .fill
+    stackView.distribution = .fillProportionally
     addSubview(stackView)
     stackView.translatesAutoresizingMaskIntoConstraints = false
     NSLayoutConstraint.activate([
       stackView.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor),
       stackView.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor),
       stackView.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor),
-      stackView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor),
+      stackView.bottomAnchor.constraint(equalTo: layoutMarginsGuide.bottomAnchor)
     ])
     
+    stackView.spacing = Constants.SPACING
     stackView.addArrangedSubview(imageView)
     stackView.addArrangedSubview(nameLabel)
   }

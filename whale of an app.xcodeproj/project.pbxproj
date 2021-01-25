@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -195,6 +195,7 @@
 		73AFEFF325BAA4EF00803297 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				73AFF02225BC03D300803297 /* WhaleContentConfiguration.swift */,
 				73AFEFF425BAA51400803297 /* Whale.swift */,
 			);
 			name = Models;
@@ -212,7 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				73AFEFEB25BAA08000803297 /* WhaleCollectionViewCell.swift */,
-				73AFF02225BC03D300803297 /* WhaleContentConfiguration.swift */,
 				73AFF02725BC04CE00803297 /* WhaleVerticalContentView.swift */,
 			);
 			name = CustomCell;

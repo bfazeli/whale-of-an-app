@@ -8,7 +8,6 @@
 import UIKit
 
 class WhaleCollectionViewCell: UICollectionViewListCell {
-  
   var whaleData: Whale? {
     didSet {
       backgroundConfiguration?.cornerRadius = 5
